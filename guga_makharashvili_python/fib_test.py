@@ -9,6 +9,8 @@ class FibTest(unittest.TestCase):
     def testcase2(self):
         self.assertEqual(2, fib_recursion(2))
     
+    def testcase3(self):
+        self.assertEqual(3, fib_recursion(3))
     
 
 if __name__ == '__main__':
