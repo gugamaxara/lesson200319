@@ -15,6 +15,9 @@ class FibTest(unittest.TestCase):
     def testcase4(self):
         self.assertEqual(5, fib_recursion(4))
 
+    def testcase5(self):
+        self.assertEqual(8, fib_recursion(5))
+
 if __name__ == '__main__':
     unittest.main()
     
